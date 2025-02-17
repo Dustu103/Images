@@ -1,0 +1,42 @@
+/* Custom navbar styling */
+.custom-navbar {
+    background: rgba(0, 0, 0, 0.3) !important; /* Slight transparency */
+    backdrop-filter: blur(10px); /* Blur effect */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px 20px; /* Adjust padding */
+    margin: 15px; /* Adds margin to navbar */
+    width: calc(100% - 30px); /* Adjust width */
+  }
+  
+  /* Navbar brand styles */
+  .custom-navbar .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white !important;
+  }
+  
+  /* Navbar links styling */
+  .custom-navbar .nav-link {
+    color: white !important;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Hover effect on navbar links */
+  .custom-navbar .nav-link:hover {
+    color: #f8b400 !important; /* Yellowish hover */
+  }
+  
+  /* Navbar toggler */
+  .custom-navbar .navbar-toggler {
+    border: none;
+  }
+  
+  /* Adjust navbar in mobile view */
+  @media (max-width: 768px) {
+    .custom-navbar {
+      margin: 5px;
+      width: calc(100% - 10px);
+    }
+  }
+  
