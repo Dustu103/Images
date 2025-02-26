@@ -1,10 +1,11 @@
 import React from 'react'
 import './back.css'
+import { div } from '@tensorflow/tfjs'
 
 function Back({children}) {
   return (
+    <div>
     <div class="starfall">
-        {children}
   <div class="falling-star"></div>
   <div class="falling-star"></div>
   <div class="falling-star"></div>
@@ -44,7 +45,9 @@ function Back({children}) {
   <div class="falling-star"></div>
   <div class="falling-star"></div>
   <div class="falling-star"></div>
-  <div class="falling-star"></div>
+  <div class="falling-star"></div>  
+</div>
+{children}
 </div>
   )
 }
